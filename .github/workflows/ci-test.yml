@@ -42,4 +42,4 @@ jobs:
         docker run --rm -d -p 8080:8080/tcp --name benny benny:latest
     - name: check respose
       run: |
-        python check_response.py
+        python check_respose.py
